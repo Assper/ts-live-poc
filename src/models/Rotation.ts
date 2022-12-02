@@ -1,5 +1,3 @@
-import { PlayTime } from "./PlayTime";
-
 export type Rotation = {
   id: number;
   contentName: string;
@@ -7,5 +5,4 @@ export type Rotation = {
   priority: number;
   startDate: Date;
   endDate: Date;
-  nextPlay?: PlayTime;
 };

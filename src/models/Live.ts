@@ -1,6 +1,6 @@
-import { Rotation } from "./Rotation";
+import { PlayTime } from "./PlayTime";
 
 export type Live = {
-  current?: Rotation;
-  list: Rotation[];
+  current?: PlayTime;
+  list: PlayTime[];
 };
